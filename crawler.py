@@ -682,6 +682,7 @@ if __name__ == "__main__":
     # 爬下所有小区里的成交信息
     #do_xiaoqu_chengjiao_spider(db_xq, db_cj)
 
+    # 爬下所有小区里的在售信息
     do_xiaoqu_sell_spider(db_xq, db_sl)
     # 重新爬取爬取异常的链接
     exception_spider(db_xq,db_cj,db_sl)
